@@ -26,4 +26,5 @@ func leapYearRule(yearDuration float32) []int {
 
 func main() {
 	fmt.Println(leapYearRule(365.26))
+	fmt.Println(leapYearRule(400.45))
 }
